@@ -114,7 +114,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="468,313" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="468,436.5" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="strValue" />
       </Sequence.Variables>
@@ -131,7 +131,8 @@
           <InArgument x:TypeArguments="x:String">value</InArgument>
         </Assign.Value>
       </Assign>
-      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,114.5" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[strValue]" />
+      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,123.5" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[strValue]" />
+      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,114.5" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[String.Join(&quot;chenna&quot;,&quot;kiran&quot;)]" />
     </Sequence>
   </Sequence>
 </Activity>
